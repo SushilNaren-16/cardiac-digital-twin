@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- STM32CubeIDE / STM32CubeMX build artifacts ---
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+.settings/
+.metadata/
+RTE/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# --- Large or generated data (keep only small sample CSVs) ---
+data/*.wav
+data/large_*.csv
+*.log

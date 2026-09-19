@@ -1,0 +1,16 @@
+# Simulator
+numpy
+scipy
+neurokit2
+
+# Bridge (serial <-> laptop)
+pyserial
+
+# Twin / ML
+scikit-learn
+pandas
+
+# Dashboard
+streamlit
+matplotlib
+plotly
